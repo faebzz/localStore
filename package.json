@@ -1,0 +1,33 @@
+{
+  "name": "localstore",
+  "version": "0.0.1",
+  "description": "Plugin to simplify localStorage",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "build": "./node_modules/rollup/dist/bin/rollup -c && ./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faebzz/localStore.git"
+  },
+  "keywords": [
+    "localStorage"
+  ],
+  "author": "Fabian Schaper",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/faebzz/localStore/issues"
+  },
+  "homepage": "https://github.com/faebzz/localStore#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "mocha": "^7.1.0",
+    "mock-local-storage": "^1.1.11",
+    "rollup": "^2.0.6",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
