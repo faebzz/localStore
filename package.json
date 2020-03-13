@@ -1,8 +1,8 @@
 {
-  "name": "localstore",
+  "name": "@faebzz/localstore",
   "version": "0.0.1",
   "description": "Plugin to simplify localStorage",
-  "main": "src/index.js",
+  "main": "dist/localStore.js",
   "directories": {
     "test": "test"
   },
@@ -29,5 +29,6 @@
     "mock-local-storage": "^1.1.11",
     "rollup": "^2.0.6",
     "rollup-plugin-babel": "^4.4.0"
-  }
+  },
+  "dependencies": {}
 }
