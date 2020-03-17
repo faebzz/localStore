@@ -1,6 +1,6 @@
 {
   "name": "@faebzz/localstore",
-  "version": "0.0.4",
+  "version": "0.6.0",
   "description": "Plugin to simplify localStorage",
   "main": "dist/localStore.js",
   "directories": {
